@@ -4,3 +4,11 @@ When we train a Artificial Neural Network model weights will be in floating poin
 There are many numbers of layers in Deep Neural Network where we have weight (w) values in float. Since this is floating point number we have to represent in 32 bit memory. Like which we have many number of weight.
 If we represent the same weight in integer. We can represent most of the integer in 8 bit which will help us to reduce the memory required.
 That’s how we make the model to work on small machine and to make inference faster. We are reducing the size of each weight by which Quantization helps.
+
+File 1: Pre-processed the data for the preparation of modal (Crack Detection Binary Task)
+
+File2: Trained Image Classification model (Crack Detection CNN)
+
+File3: Running inference on a new image using saved model (Running inference on a new image)
+
+File4: Neural Network Quantization model (Quantization on the model)
